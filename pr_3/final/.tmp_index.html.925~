@@ -644,15 +644,14 @@ p {
 	line-height: 22px;
 	padding-left: 340px;
 }
-
-a:link {
-	color: #EF7B07;
-	text-decoration: none;}  
-	  
-a:visited {color: #EF7B07;}
-a:hover {color: #000000;} 
-a:active {color: #000000;} 
-
+a {
+	color: #000;
+	text-decoration: none;
+	width: 100%;
+}
+a:hover{
+	color:#666;
+}
 .container {
 	height: 600px;
 	width: 600px;
@@ -832,7 +831,6 @@ play: {
 			$('#basic-modal-content').modal();
 	
 			return false;
-
 		});
 	});
 	        </script>	
@@ -896,13 +894,12 @@ play: {
 	<div id='basic-modal-content'>
 			<h5>This Moose Belongs to Me</h5>
 		<h6>One of Jeffers' skills as a picture book writer and illustrator is in using the seemingly simple to tell a complex and layered story that is funny and entertaining. It's a story about friendship. It's a story about ownership and autonomy. It's a story about wild animals. It's a story about a little boy who finds a moose who loves to eat apples. Wilfred works hard to teach Marcel, his new pet moose, the complicated rules of being a pet, until he learns that Marcel is also Rodrigo and apparently the pet of a random old lady.</h6>
+
   			<img src="img/moose1.png" width="100%"><br><br>
     		<img src="img/moose2.png" width="100%"><br><br>
     		<img src="img/moose3.png" width="100%"><br><br>
 			<img src="img/moose4.png" width="100%"><br><br>
-			<img src="img/moose5.png" width="100%"><br><br>
-		<h6>If you are enjoying this book, stop by our Baltimore store to read the rest! Not in the area? Buy online <a href="#">here!</a></h6>
-
+			<img src="img/moose5.png" width="100%">
 </div>	
 	</div>
 </div>
@@ -931,6 +928,7 @@ play: {
 	<h2>
 		Educational Foundation
 	</h2>
+		
 			<h4>Reading: A Gift for Life</h4>
 			<p>
 			When a child opens a book, a whole new world opens up. And when that child can call that book her own, that world becomes even bigger.
